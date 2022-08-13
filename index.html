@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Template</title>
+</head>
+<body>
+    <h2 class="title">Grid-template</h2>
+    <!-- <p>Define rows & columns</p>
+    <ul>
+        <li><strong>Grid-template-columns:</strong> 100px 100px 100px 100px</li>
+        <li><strong>Grid-template-rows:</strong> 100px 100px 100px</li>
+        <li><strong>Grid-template (rows /cols):</strong> 100px 100px 100px / 100px 100px 100px 100px</li>
+    </ul> -->
+    <div class="grid-container">
+        <div class="grid-item box-1">Box one</div>
+        <div class="grid-item box-2">Box two</div>
+        <div class="grid-item box-3">Box three</div>
+        <div class="grid-item box-4">Box four</div>
+        <div class="grid-item box-5">Box five</div>
+        <div class="grid-item box-6">Box six</div>
+    </div>
+    <h2 class="title">Grid-column(row)-start(end)</h2>
+    <!-- <p>Place items on grid</p>
+    <ul>
+        <li><strong>Grid-column-start:</strong> 1</li>
+        <li><strong>Grid-column-end:</strong> 2</li>
+        <li><strong>Grid-row-start:</strong> 1</li>
+        <li><strong>Grid-row-end:</strong> 2</li>
+    </ul> -->
+    <div class="grid-container">
+        <div class="grid-item box-7">Box one</div>
+        <div class="grid-item box-8">Box two</div>
+        <div class="grid-item box-9">Box three</div>
+        <div class="grid-item box-10">Box four</div>
+        <div class="grid-item box-11">Box five</div>
+        <div class="grid-item box-12">Box six</div>
+    </div>
+    <!-- <h2 class="title">Grid-column(row): start / end</h2>
+    <p>Short-hand</p>
+    <ul>
+        <li><strong>Grid-column:</strong> 1 / 2</li>
+        <li><strong>Grid-row:</strong> 1 / 2</li>
+    </ul> -->
+    <div class="grid-container">
+        <div class="grid-item box-13">Box five</div>
+        <div class="grid-item box-14">Box six</div>
+    </div>
+    <h2 class="title">Grid-column(row): negative</h2>
+    <div class="grid-container">
+        <div class="grid-item box-15">Box five</div>
+        <div class="grid-item box-16">Box six</div>
+    </div>
+    <h2 class="title">Grid-column(row): start / span(number)</h2>
+    <div class="grid-container">
+        <div class="grid-item box-17">Box three</div>
+        <div class="grid-item box-18">Box four</div>
+        <div class="grid-item box-19">Box two</div>
+        <div class="grid-item box-20">Box five</div>
+    </div>
+    <h2 class="title">Auto-grid: justify-content, aligns-items</h2>
+    <div class="grid-container-2">
+        <div class="grid-item box-21">Box three (start)</div>
+        <div class="grid-item box-22 large">Box four (large)</div>
+        <div class="grid-item box-23 large">Box five (large)</div>
+        <div class="grid-item box-24">Box six (end)</div>
+    </div>
+    <h2 class="title">Justify-items</h2>
+    <div class="grid-container-3">
+        <div class="grid-item box-25">Box three</div>
+        <div class="grid-item box-26">Box four</div>
+        <div class="grid-item box-27">Box two</div>
+        <div class="grid-item box-28">Box five</div>
+    </div>
+    <h2 class="title">Grid with padding</h2>
+    <div class="grid-container-4">
+        <div class="grid-item box-29">Box one</div>
+        <div class="grid-item box-30">Box two</div>
+        <div class="grid-item box-31">Box three</div>
+        <div class="grid-item box-32">Box four</div>
+        <div class="grid-item box-33">Box five</div>
+        <div class="grid-item box-34">Box six</div>
+    </div>
+    <h2 class="title">Grid gaps</h2>
+    <div class="grid-container-5">
+        <div class="grid-item box-35">Box one</div>
+        <div class="grid-item box-36">Box two</div>
+        <div class="grid-item box-37">Box three</div>
+        <div class="grid-item box-38">Box four</div>
+        <div class="grid-item box-39">Box five</div>
+        <div class="grid-item box-40">Box six</div>
+    </div>
+    <h2 class="title">Grid areas</h2>
+    <div class="grid-container-6">
+        <div class="grid-item box-41 header">Box one (header)</div>
+        <div class="grid-item box-42 sidebar">Box two (sidebar)</div>
+        <div class="grid-item box-43 content">Box three (content)</div>
+        <!-- <div class="grid-item box-44">Box four</div> -->
+        <div class="grid-item box-45 footer">Box five (footer)</div>
+    </div>
+    <h2 class="title">Grid areas with empty space</h2>
+    <div class="grid-container-7">
+        <div class="grid-item box-46 header">Box one (header)</div>
+        <div class="grid-item box-47 sidebar">Box two (sidebar)</div>
+        <div class="grid-item box-48 content">Box three (content)</div>
+        <div class="grid-item box-49 footer">Box five (footer)</div>
+    </div>
+    <h2 class="title">minmax(min, max)</h2>
+    <div class="grid-container-8">
+        <div class="grid-item box-50 header">Box one (header)</div>
+        <div class="grid-item box-51 sidebar">Box two (sidebar)</div>
+        <div class="grid-item box-52 content">Box three (content)</div>
+        <div class="grid-item box-53 footer">Box five (footer)</div>
+    </div>
+</body>
+</html> 
