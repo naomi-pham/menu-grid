@@ -2,14 +2,17 @@ const modalCoffeeBtn = document.getElementById("open-coffee-modal")
 const modalCoffeeContainer = document.getElementById("modal-container")
 const closeCoffeeBtn = document.getElementById("close-coffee-modal")
 const changeThemeBtn = document.getElementById("change-theme")
+const hero = document.getElementById("hero-hide")
 
 modalCoffeeBtn.addEventListener("click", function() {
     modalCoffeeContainer.style.display = "block"
+    hero.style.display = "none";
 
 })
 
 closeCoffeeBtn.addEventListener("click", function() {
-    modalCoffeeContainer.style.display = "none"
+    modalCoffeeContainer.style.display = "none";
+    hero.style.display = "block";
 })
 
 
