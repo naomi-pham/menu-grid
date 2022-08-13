@@ -12,6 +12,8 @@
     box-sizing: border-box;
 }
 
+/* general styling */
+
 body {
     font-family: var(--ff-secondary);
     font-size: 1.25em;
@@ -92,7 +94,7 @@ body {
     font-weight: normal;
 }
 
-/* general styling */
+/* typography */
 
 h1, h2, h3, p {
     margin: 0;
@@ -206,7 +208,6 @@ span {
     grid-column: 3; 
     grid-row: 2;
 }
-
 
 
 /* modals */
@@ -328,12 +329,6 @@ span {
         margin-left: 5rem;
         text-align: center;
     }
-
-    /* #alley span {
-        text-align: left;
-        margin-left: 2.2rem;
-    } */
-    
 
     #alley h2 {
         font-size: 2.25rem;
